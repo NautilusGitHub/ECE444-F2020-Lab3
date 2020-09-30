@@ -3,11 +3,13 @@ Name: Jason Shang
 Note: This repo contains material from https://github.com/miguelgrinberg/flasky  
 
 Activity 1: <br />
-Commit: 9b7ce84dda767588617b96d96845fc9dc85bd1f3
-![Screenshot 1](https://github.com/NautilusGitHub/ECE444-F2020-Lab3/blob/master/activity_1_img.png)
+Commit: c39850978e99ccb9034a9a55ea2381755ab812ff  
+Branch: activity_1
+![Screenshot 1](https://github.com/NautilusGitHub/ECE444-F2020-Lab3/blob/activity_1/activity_1_1_img.png)
 
 Activity 2: <br />
-Commit: e334c10357a6547532604c06a236c2f0cf7c03a5
+Commit: e334c10357a6547532604c06a236c2f0cf7c03a5  
+Branch: master  
 ![Screenshot 2](https://github.com/NautilusGitHub/ECE444-F2020-Lab3/blob/master/activity_2_1_img.png)  
 ![Screenshot 3](https://github.com/NautilusGitHub/ECE444-F2020-Lab3/blob/master/activity_2_2_img.png)  
 ![Screenshot 4](https://github.com/NautilusGitHub/ECE444-F2020-Lab3/blob/master/activity_2_3_img.png)  
