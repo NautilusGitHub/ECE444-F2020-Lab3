@@ -1,0 +1,7 @@
+Flask==1.1.2
+flask-bootstrap
+flask-moment
+flask-wtf
+wtforms
+email-validator
+Flask-Script

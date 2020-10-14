@@ -1,4 +1,5 @@
 from flask import Flask, render_template, session, redirect, url_for, flash
+from flask_script import Manager
 from flask_bootstrap import Bootstrap
 from flask_moment import Moment
 from datetime import datetime
@@ -15,6 +16,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'perhaps you might not guess this string'
 bootstrap = Bootstrap(app)
 moment = Moment(app)
+manager = Manager(app)
 
 # http://127.0.0.1:5000/
 @app.route('/', methods=['GET', 'POST'])
@@ -46,4 +48,4 @@ def internal_server_error(e):
     return render_template('500.html'), 500
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    manager.run()
